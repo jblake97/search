@@ -3,17 +3,12 @@
     width: 50%;
     height: 50%;
     text-align:center;
-    border: 3px solid green;
-}
-h1{
-    color:purple;
 }
 nav{
     float:right;
     margin-right: 10px;
-    border: 3px solid blue;
 }
-nav > a{
+nav a{
     padding: 15px;
 }
 form{
@@ -21,4 +16,24 @@ form{
 }
 .rounded{
     border-radius: 25px;
+}
+.left{
+    margin: auto;
+    text-align: left;
+}
+.left-advanced-search{
+    margin-left: 5px;
+}
+.left-advanced-search input{
+    position:absolute;
+    left: 200px;
+}
+#submitButton{
+    poisition:absolute;
+    left: 250px;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    text-align:center;
+    padding:5px;
 }
